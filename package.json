@@ -1,6 +1,6 @@
 {
   "name": "@dadi/cdn",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "product": "DADI CDN",
   "description": "A high performance, just-in-time asset manipulation and delivery layer designed as a modern content distribution solution.",
   "scripts": {
@@ -101,12 +101,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dadi/cdn.git"
+    "url": "git+https://github.com/mingard/cdn.git"
   },
   "bugs": {
-    "url": "https://github.com/dadi/cdn/issues"
+    "url": "https://github.com/dadi/mingard/issues"
   },
-  "homepage": "https://github.com/dadi/cdn",
+  "homepage": "https://github.com/mingard/cdn",
   "directories": {
     "test": "test"
   },
@@ -123,5 +123,7 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "main": "index.js",
+  "keywords": []
 }
